@@ -38,11 +38,11 @@ and in this application it has been initiated to 59.9$, fell free to chane it.
 ``` Welcome ^_^
 Please Enter The Row "from 1->5": 
 To Exit Please Enter 0
--> 2
+-> 1
 
 Please Enter The Col "from 1->5": 
 To Exit Please Enter 0
--> 3
+-> 2
 How do wish to pay
 -> 1- cash
 -> 2- visa
@@ -82,22 +82,75 @@ To Exit Please Enter 0
 How do wish to pay
 -> 1- cash
 -> 2- visa
-2
+1
 -----------------------
-please enter your visa
-done
+Please Add Cash
+What To Insert?!
+[1->10C|2->20C|3->50C|4->1$|5->20$|6->50$]
+To Finish Enter -1
+6
+total amount: 50.0
+What To Insert?!
+[1->10C|2->20C|3->50C|4->1$|5->20$|6->50$]
+To Finish Enter -1
+5
+total amount: 70.0
+What To Insert?!
+[1->10C|2->20C|3->50C|4->1$|5->20$|6->50$]
+To Finish Enter -1
+-1
+-----------------------
+here is your change:
+[TenCoin, Dollar, Dollar, Dollar, Dollar, Dollar, Dollar, Dollar, Dollar, Dollar, Dollar]
+-----------------------
 -----------------------
 cash report:
 -> view into the cash
-{TwentyNote=21, TenCoin=19, FiftyCoin=20, FiftyNote=21, Dollar=10, TwentyCoin=20}
-All the money"Cash+Visa"1555.8000000000002
+{TwentyNote=22, TenCoin=18, FiftyCoin=20, FiftyNote=22, Dollar=0, TwentyCoin=20}
+All the money"Cash+Visa"1555.8
+Please Enter The Row "from 1->5": 
+To Exit Please Enter 0
+-> 2
+
+Please Enter The Col "from 1->5": 
+To Exit Please Enter 0
+-> 3
+How do wish to pay
+-> 1- cash
+-> 2- visa
+1
+-----------------------
+Please Add Cash
+What To Insert?!
+[1->10C|2->20C|3->50C|4->1$|5->20$|6->50$]
+To Finish Enter -1
+6
+total amount: 50.0
+What To Insert?!
+[1->10C|2->20C|3->50C|4->1$|5->20$|6->50$]
+To Finish Enter -1
+5
+total amount: 70.0
+What To Insert?!
+[1->10C|2->20C|3->50C|4->1$|5->20$|6->50$]
+To Finish Enter -1
+-1
+-----------------------
+here is your change:
+[TenCoin, FiftyCoin, FiftyCoin, FiftyCoin, FiftyCoin, FiftyCoin, FiftyCoin, FiftyCoin, FiftyCoin, FiftyCoin, FiftyCoin, FiftyCoin, FiftyCoin, FiftyCoin, FiftyCoin, FiftyCoin, FiftyCoin, FiftyCoin, FiftyCoin, FiftyCoin, FiftyCoin]
+-----------------------
+-----------------------
+cash report:
+-> view into the cash
+{TwentyNote=23, TenCoin=17, FiftyCoin=0, FiftyNote=23, Dollar=0, TwentyCoin=20}
+All the money"Cash+Visa"1615.7
 Please Enter The Row "from 1->5": 
 To Exit Please Enter 0
 -> 1
 
 Please Enter The Col "from 1->5": 
 To Exit Please Enter 0
--> 2
+-> 3
 How do wish to pay
 -> 1- cash
 -> 2- visa
@@ -108,8 +161,8 @@ done
 -----------------------
 cash report:
 -> view into the cash
-{TwentyNote=21, TenCoin=19, FiftyCoin=20, FiftyNote=21, Dollar=10, TwentyCoin=20}
-All the money"Cash+Visa"1615.7
+{TwentyNote=23, TenCoin=17, FiftyCoin=0, FiftyNote=23, Dollar=0, TwentyCoin=20}
+All the money"Cash+Visa"1675.6000000000001
 Please Enter The Row "from 1->5": 
 To Exit Please Enter 0
 -> 0
