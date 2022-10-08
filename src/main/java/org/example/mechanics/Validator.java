@@ -40,15 +40,15 @@ public class Validator {
             System.out.println("here is your change:");
             System.out.println(temp2.toString());
             System.out.println("-----------------------");
-            System.out.println("cash report:\n-> view into the cash\n" + treasury.getSafe().toString());
             System.out.println("-----------------------");
         } else if (read == 2) {
             System.out.println("please enter your visa");
             treasury.takeVisa(productPrice);
-            System.out.println("All the money\"Cash+Visa\"" + treasury.getAllCumulative());
             System.out.println("done");
             System.out.println("-----------------------");
         }
+        System.out.println("cash report:\n-> view into the cash\n" + treasury.getSafe().toString());
+        System.out.println("All the money\"Cash+Visa\"" + treasury.getAllCumulative());
         return true;
     }
 
@@ -74,7 +74,7 @@ public class Validator {
         toBeRefunded = toBeRefunded / 10;
         boolean valid = attempt(toBeRefunded);
         if (!valid) fromQueueToTreasury(temp2);
-        else temp2 = temp;
+        //  else temp2 = temp;
         return true;
     }
 

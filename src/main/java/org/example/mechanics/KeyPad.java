@@ -36,7 +36,7 @@ public class KeyPad {
             keyPadEntries.clear();
             return keyPadEntries;
         }
-        keyPadEntries.add(entry - 1);
+        keyPadEntries.add(entry);
         System.out.println();
         System.out.print("Please Enter The Col \"from 1->5\": ");
         System.out.println("\nTo Exit Please Enter 0");

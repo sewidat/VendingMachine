@@ -1,6 +1,6 @@
 # Snacks Vending Machine
 
-## you can find the uml and sample runs inside the uml folder.
+## you can find the uml inside the uml folder.
 
 ### The project is divided into several parts based on their function:
 
@@ -17,9 +17,100 @@
 
 # Notes:
 
-### the application start by initiating a global price as its appears in the file.
+### 1- the application start by initiating a global price as its appears in the file.
 
 > src/main/java/org/example/product/SnackCreator.java line 5
 
 and in this application it has been initiated to 59.9$, fell free to chane it.
+
 ---
+
+### 2- treasury class represents the finance department, initially it has been set to contain 20unit for each coin/note.
+
+---
+
+### 3- The Validator: `all roads leads to the Validator`, this class combines all the moving parts, perform the operations, and validate the transactions.
+
+---
+
+# Sample Run
+
+``` Welcome ^_^
+Please Enter The Row "from 1->5":
+To Exit Please Enter 0
+-> 2
+
+Please Enter The Col "from 1->5":
+To Exit Please Enter 0
+-> 3
+How do wish to pay
+-> 1- cash
+-> 2- visa
+1
+-----------------------
+Please Add Cash
+What To Insert?!
+[1->10C|2->20C|3->50C|4->1$|5->20$|6->50$]
+To Finish Enter -1
+6
+total amount: 50.0
+What To Insert?!
+[1->10C|2->20C|3->50C|4->1$|5->20$|6->50$]
+To Finish Enter -1
+5
+total amount: 70.0
+What To Insert?!
+[1->10C|2->20C|3->50C|4->1$|5->20$|6->50$]
+To Finish Enter -1
+-1
+-----------------------
+here is your change:
+[TenCoin, Dollar, Dollar, Dollar, Dollar, Dollar, Dollar, Dollar, Dollar, Dollar, Dollar]
+-----------------------
+-----------------------
+cash report:
+-> view into the cash
+{TwentyNote=21, TenCoin=19, FiftyCoin=20, FiftyNote=21, Dollar=10, TwentyCoin=20}
+All the money"Cash+Visa"1495.9
+Please Enter The Row "from 1->5":
+To Exit Please Enter 0
+-> 1
+
+Please Enter The Col "from 1->5":
+To Exit Please Enter 0
+-> 2
+How do wish to pay
+-> 1- cash
+-> 2- visa
+2
+-----------------------
+please enter your visa
+done
+-----------------------
+cash report:
+-> view into the cash
+{TwentyNote=21, TenCoin=19, FiftyCoin=20, FiftyNote=21, Dollar=10, TwentyCoin=20}
+All the money"Cash+Visa"1555.8000000000002
+Please Enter The Row "from 1->5":
+To Exit Please Enter 0
+-> 1
+
+Please Enter The Col "from 1->5":
+To Exit Please Enter 0
+-> 2
+How do wish to pay
+-> 1- cash
+-> 2- visa
+2
+-----------------------
+please enter your visa
+done
+-----------------------
+cash report:
+-> view into the cash
+{TwentyNote=21, TenCoin=19, FiftyCoin=20, FiftyNote=21, Dollar=10, TwentyCoin=20}
+All the money"Cash+Visa"1615.7
+Please Enter The Row "from 1->5":
+To Exit Please Enter 0
+-> 0
+```
