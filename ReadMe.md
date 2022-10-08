@@ -36,11 +36,11 @@ and in this application it has been initiated to 59.9$, fell free to chane it.
 # Sample Run
 
 ``` Welcome ^_^
-Please Enter The Row "from 1->5":
+Please Enter The Row "from 1->5": 
 To Exit Please Enter 0
 -> 2
 
-Please Enter The Col "from 1->5":
+Please Enter The Col "from 1->5": 
 To Exit Please Enter 0
 -> 3
 How do wish to pay
@@ -72,11 +72,11 @@ cash report:
 -> view into the cash
 {TwentyNote=21, TenCoin=19, FiftyCoin=20, FiftyNote=21, Dollar=10, TwentyCoin=20}
 All the money"Cash+Visa"1495.9
-Please Enter The Row "from 1->5":
+Please Enter The Row "from 1->5": 
 To Exit Please Enter 0
 -> 1
 
-Please Enter The Col "from 1->5":
+Please Enter The Col "from 1->5": 
 To Exit Please Enter 0
 -> 2
 How do wish to pay
@@ -91,11 +91,11 @@ cash report:
 -> view into the cash
 {TwentyNote=21, TenCoin=19, FiftyCoin=20, FiftyNote=21, Dollar=10, TwentyCoin=20}
 All the money"Cash+Visa"1555.8000000000002
-Please Enter The Row "from 1->5":
+Please Enter The Row "from 1->5": 
 To Exit Please Enter 0
 -> 1
 
-Please Enter The Col "from 1->5":
+Please Enter The Col "from 1->5": 
 To Exit Please Enter 0
 -> 2
 How do wish to pay
@@ -110,7 +110,9 @@ cash report:
 -> view into the cash
 {TwentyNote=21, TenCoin=19, FiftyCoin=20, FiftyNote=21, Dollar=10, TwentyCoin=20}
 All the money"Cash+Visa"1615.7
-Please Enter The Row "from 1->5":
+Please Enter The Row "from 1->5": 
 To Exit Please Enter 0
 -> 0
+
+Process finished with exit code 0
 ```
