@@ -2,7 +2,7 @@ package org.example.product;
 
 public class SnackCreator implements Product {
     private String snackName = "snack";
-    private double productPrice = 60;
+    private double productPrice = 59.9;
 
     @Override
     public String getProductName() {

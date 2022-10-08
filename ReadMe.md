@@ -15,4 +15,11 @@
 
 ---
 
+# Notes:
 
+### the application start by initiating a global price as its appears in the file.
+
+> src/main/java/org/example/product/SnackCreator.java line 5
+
+and in this application it has been initiated to 59.9$, fell free to chane it.
+---
